@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = {"carlos" => "carlosk@163.com" }
   s.source       = { :git => "https://github.com/carlosk/LiMeiPointWallSDK"}
-  s.source_files = "immobSDK.framework"
-  s.framework = 'CoreLocation', 'QuartzCore', 'EventKit', 'EventKitUI', 'MobileCoreServices', 'CFNetwork', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'MediaPlayer', 'CoreTelephony', 'MapKit', 'Security','StoreKit','AdSupport','CoreGraphics','UIKit','Foundation'
+
+  s.framework = 'CoreLocation', 'QuartzCore', 'EventKit', 'EventKitUI', 'MobileCoreServices', 'CFNetwork', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'MediaPlayer', 'CoreTelephony', 'MapKit', 'Security','StoreKit','AdSupport','CoreGraphics','UIKit','Foundation','immobSDK'
   s.library   = 'libz.1.2.5'
   s.platform     = :ios
 end
