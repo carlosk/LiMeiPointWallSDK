@@ -6,9 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = {"carlos" => "carlosk@163.com" }
   s.source       = { :git => "https://github.com/carlosk/LiMeiPointWallSDK"}
-  framework_path = 'immobSDK.framework'
-  s.source_files = "#{framework_path}/Headers/*.h"
-  s.source = "#{framework_path}/immobSDK"
+  s.vendored_frameworks = 'immobSDK.framework'
   s.framework = 'CoreLocation', 'QuartzCore', 'EventKit', 'EventKitUI', 'MobileCoreServices', 'CFNetwork', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'MediaPlayer', 'CoreTelephony', 'MapKit', 'Security','StoreKit','AdSupport','CoreGraphics','UIKit','Foundation'
   s.libraries   = 'z.1.2.5'
   s.platform     = :ios
