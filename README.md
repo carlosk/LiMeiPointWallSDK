@@ -1,6 +1,6 @@
 LiMeiPointWallSDK
 =================
 
-this is LiMei Ad PointWallSDK
+这是力美积分墙SDK的cocospod的封装
 
-++ 使用cocospod封装
++ 使用cocospod封装
