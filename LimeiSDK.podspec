@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files = 'immobSDK.framework/Headers/immobView.h'
   s.preserve_paths = 'immobSDK.framework/*'
   s.framework = 'CoreLocation', 'QuartzCore', 'EventKit', 'EventKitUI', 'MobileCoreServices', 'CFNetwork', 'SystemConfiguration', 'MessageUI', 'AudioToolbox', 'MediaPlayer', 'CoreTelephony', 'MapKit', 'Security','StoreKit','AdSupport','CoreGraphics','UIKit','Foundation'
-  s.libraries   = 'libz.1.2.5'
+  s.libraries   = 'libz.1.2.5.dylib'
   s.platform     = :ios
   s.requires_arc = true
 end
